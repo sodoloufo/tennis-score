@@ -1,3 +1,9 @@
+
+SOLUTION: 
+mvn clean -f "PATH\tennis-score\pom.xml" 
+mvn install -f "PATH\tennis-score\pom.xml" 
+java -jar .\target\tennis-score-0.0.1-SNAPSHOT.jar  
+
 This Kata goal is to implement a simple tennis score computer.
 
  
@@ -43,5 +49,3 @@ For example the following input “ABABAA” should print :
 “Player A wins the game”
 
 
-
-SOLUTION: Run the App.java

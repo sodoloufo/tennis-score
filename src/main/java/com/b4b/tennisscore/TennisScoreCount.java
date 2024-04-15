@@ -1,3 +1,4 @@
+package com.b4b.tennisscore;
 
 public class TennisScoreCount {
 
@@ -17,14 +18,14 @@ public class TennisScoreCount {
                 } else if (scorePlayerA == 30) {
                     scorePlayerA = 40;
                 } else if (scorePlayerA == 40) {
-                    System.out.println("Player A wins the game");
+                    System.out.print("Player A wins the game");
                     return;
                 } else if (scorePlayerB == 40 && !advantageB) {
                     advantageA = true;
                 } else if (scorePlayerB == 40 && advantageB) {
                     advantageB = false;
                 } else if (advantageA) {
-                    System.out.println("Player A wins the game");
+                    System.out.print("Player A wins the game");
                     return;
                 }
             } else if (action == 'B') {
@@ -35,14 +36,14 @@ public class TennisScoreCount {
                 } else if (scorePlayerB == 30) {
                     scorePlayerB = 40;
                 }  else if (scorePlayerB == 40) {
-                    System.out.println("Player B wins the game");
+                    System.out.print("Player B wins the game");
                     return;
                 } else if (scorePlayerA == 40 && !advantageA) {
                     advantageB = true;
                 } else if (scorePlayerA == 40 && advantageA) {
                     advantageA = false;
                 } else if (advantageB) {
-                    System.out.println("Player B wins the game");
+                    System.out.print("Player B wins the game");
                     return;
                 }
             }
